@@ -74,7 +74,7 @@ echo "Disable auto-correct."
 run defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 echo "Speed up mission control animations."
-run defaults write com.apple.dock expose-animation-duration -float 0.1
+run defaults write com.apple.dock expose-animation-duration -float 0
 
 echo "Remove the auto-hiding dock delay."
 run defaults write com.apple.dock autohide-delay -int 0
@@ -127,12 +127,6 @@ run defaults write _FXShowPosixPathInTitle com.apple.finder -int 1
 
 echo "Don't write DS_Store files to network shares."
 run defaults write DSDontWriteNetworkStores com.apple.desktopservices -int 1
-
-echo "Don't ask to use external drives as a Time Machine backup."
-run defaults write DoNotOfferNewDisksForBackup com.apple.TimeMachine -int 1
-
-echo "Disable natural scrolling."
-run defaults write ~/Library/Preferences/.GlobalPreferences com.apple.swipescrolldirection -bool false
 
 # Security And Privacy Improvements
 echo "Disable Safari from auto-filling sensitive data."
@@ -267,16 +261,6 @@ echo "Install youtube-dl."
 run brew install youtube-dl
 run brew install ffmpeg
 
-# Trust a curl | bash? Why not.
-echo "Install rust using Rustup."
-rustc --version
-if [[ $? != 0 ]] ; then
-    run curl https://sh.rustup.rs -sSf | sh
-fi
-
-echo "Install rustfmt."
-run cargo install rustfmt
-
 # Install all the Mac App Store applications using mas. https://github.com/mas-cli/mas
 mac_app_login=$(mas account | grep @)
 if [ -z "$mac_app_login" ] ; then
@@ -284,21 +268,6 @@ if [ -z "$mac_app_login" ] ; then
     read mac_app_login
     run mas signin $mac_app_login
 fi
-
-echo "Install Reeder."
-run mas install 880001334
-
-echo "Install Final Cut Pro."
-run mas install 424389933
-
-echo "Install Keynote."
-run mas install 409183694
-
-echo "Install Things."
-run mas install 407951449
-
-echo "Install Slack."
-run mas install 803453959
 
 echo "Upgrade any Mac App Store applications."
 run mas upgrade
