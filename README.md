@@ -1,5 +1,5 @@
-# mac-setup
-===========
+mac-setup
+=========
 
 My macOS setup. Based on the Macbot shell script, forked from [here](github.com/echohack/macbot.git).
 
