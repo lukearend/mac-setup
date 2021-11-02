@@ -17,38 +17,45 @@ Hardware mappings:
 | Esc     | A   | S   | D   | F   | G   | Shift|           | H   | J   | K   | L   | ; : | ' " | Return      |
 |         |     |     |     |     |     | +A   |           |     |     |     |     |     |     |             |
 ----------+--+--+--+--+--+--+--+--+--+--+--+---+-+      +--+--+--+--+--+--+--+--+--+--+--+--+--+-------------+
-| Shift      | Z   | X   | C   | V   | B   | ] } |      | [ { | N   | M   | , < | . > | / ? | Shift          |
+| Shift (L)  | Z   | X   | C   | V   | B   | ] } |      | [ { | N   | M   | , < | . > | / ? | Shift (R)      |
 |            |     |     |     |     |     |     |      |     |     |     |     |     |     |                |
 +------+-----++----+-+---+--+--+-----+-----+-----+      +-----+-----+-----+-----+-----+-----+-----+----------+
-| Del  | Ctrl | Alt  | Cmd  | Fn2          | Num |      | Space     | Fn2 | ←   | ↓   | ↑   | →   | Ctrl |
-|      |      |      |      |              | 4   |      |           |     |     |     |     |     |      |
+| Del  | Ctrl | Opt  | Cmd  | Num          | Num |      | Space     | Cmd | ←   | ↓   | ↑   | →   | Ctrl |
+|      | (L)  |      | (L)  | 3            | 4   |      |           | (R) |     |     |     |     | (R)  |
 +------+------+------+------+--------------+-----+      +-----+-----+-----+-----+-----+-----+-----+------+
-                                                                       ↑     
-                                                                    also Fn2
 
     Note: do not use Fn1 in Koolertron remapping software. Mac interprets this as F1 or screen brightness down. Fn2 has no effect on Mac so can be used for 3-layer mapping.
 
-    Holding Fn2 on the left-hand side shifts the left top two rows one row down:
+Complex mappings:
 
-        - qwerty row becomes numbers 1-6
-        - numbers 1-6 become F1-6 keys
+    Right command can be combined with hjkl for vim-style navigation:
 
-    Similarly, holding Fn2 on the right-hand side shifts the right top two rows one row down:
+    - right_command + hjkl -> left/down/up/right arrow keys
 
-        - y, u, i, o, p, Del, Del fwd become 6, 7, 8, 9, 0, -, =
-        - 6, 7, 8, 9, 0, -, = become F6-12 keys
+    Escape, when combined with certain keys, becomes an alias to the control key:
 
-    Also, holding right Fn2 maps hjkl to left/down/up/right arrow keys, like vim.
+    - escape as virtual modifier
+    - escape + C -> control + C (CLI interrupt)
+    - escape + E/Y -> ctrl + E/Y (vim line down/up)
+    - escape + R -> control + R (vim redo)
+    - escape + right_command + hjkl -> control + left/down/up/right arrow keys (Spectacle actions)
 
+    Holding keypad_3 shifts the top two rows of the keyboard one row down:
 
+    - keypad_3 as a virtual modifier, space if pressed alone
+    - keypad_3 + <tab>qwerty -> <grave accent>1-6
+    - keypad_3 + 1-6 -> F1-F6
+    - keypad_3 + yuiop<delete_or_backspace><delete_forward>/ -> 67890-=<caps_lock>
+    - keypad_3 + 67890-= -> F6-F12
 
-Software mappings:
+Simple mappings:
 
-    Simple:
+    Koolertron:
 
         Num0 -> F6
         Num4 -> Fn
 
-    Complex:
+    Built-in Apple keyboard:
 
-        shift + down/up arrow -> ctrl + E/Y (vim line down/up)
+        caps lock -> esc
+        esc -> caps lock
