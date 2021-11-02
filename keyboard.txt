@@ -1,0 +1,54 @@
+A description of my keyboard setup.
+
+
+
+Hardware mappings:
+
++-----+-----+-----+-----+-----+-----+-----+-----+         +-----+-----+-----+-----+-----+-----+-----+-----+
+| LED | F1  | F2  | F3  | F4  | F5  | Num | Num |         | F6  | F7  | F8  | F9  | F10 | F11 | F12 | LED |
+| (L) |     |     |     |     |     | 0   | 1   |         |     |     |     |     |     |     |     | (R) |
++-----+-----+-----+-----+-----+-----+-----+-----+      +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+-----+---
+| ` ~ | 1 ! | 2 @ | 3 # | 4 $ | 5 % | 6 ^ | Num |      | 6 ^ | 7 & | 8 * | 9 ( | 0 ) | - _ | = + | Caps lock |
+|     |     |     |     |     |     |     | 2   |      |     |     |     |     |     |     |     |           |
++-----+--+--+--+--+--+--+--+--+--+--+--+--+-----+      +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--------+
+| Tab    | Q   | W   | E   | R   | T   | Y      |         | Y   | U   | I   | O   | P   | Del | Del | \ |    |
+|        |     |     |     |     |     |        |         |     |     |     |     |     |     | fwd |        |
++--------++----++----++----++----++----++------++         ++----++----++----++----++----++-----+--------------
+| Esc     | A   | S   | D   | F   | G   | Shift|           | H   | J   | K   | L   | ; : | ' " | Return      |
+|         |     |     |     |     |     | +A   |           |     |     |     |     |     |     |             |
+----------+--+--+--+--+--+--+--+--+--+--+--+---+-+      +--+--+--+--+--+--+--+--+--+--+--+--+--+-------------+
+| Shift      | Z   | X   | C   | V   | B   | ] } |      | [ { | N   | M   | , < | . > | / ? | Shift          |
+|            |     |     |     |     |     |     |      |     |     |     |     |     |     |                |
++------+-----++----+-+---+--+--+-----+-----+-----+      +-----+-----+-----+-----+-----+-----+-----+----------+
+| Del  | Ctrl | Alt  | Cmd  | Fn2          | Num |      | Space     | Fn2 | ←   | ↓   | ↑   | →   | Ctrl |
+|      |      |      |      |              | 4   |      |           |     |     |     |     |     |      |
++------+------+------+------+--------------+-----+      +-----+-----+-----+-----+-----+-----+-----+------+
+                                                                       ↑     
+                                                                    also Fn2
+
+    Note: do not use Fn1 in Koolertron remapping software. Mac interprets this as F1 or screen brightness down. Fn2 has no effect on Mac so can be used for 3-layer mapping.
+
+    Holding Fn2 on the left-hand side shifts the left top two rows one row down:
+
+        - qwerty row becomes numbers 1-6
+        - numbers 1-6 become F1-6 keys
+
+    Similarly, holding Fn2 on the right-hand side shifts the right top two rows one row down:
+
+        - y, u, i, o, p, Del, Del fwd become 6, 7, 8, 9, 0, -, =
+        - 6, 7, 8, 9, 0, -, = become F6-12 keys
+
+    Also, holding right Fn2 maps hjkl to left/down/up/right arrow keys, like vim.
+
+
+
+Software mappings:
+
+    Simple:
+
+        Num0 -> F6
+        Num4 -> Fn
+
+    Complex:
+
+        shift + down/up arrow -> ctrl + E/Y (vim line down/up)
