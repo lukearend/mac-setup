@@ -15,4 +15,4 @@
 See spectacle configuration screenshot in the `settings` directory.
 Turn off default MacOS keybindings for ctrl+left,down,right arrow so spectacle can use them:
     - System Preferences -> Keyboard -> Shortcuts -> Mission Control
-    - uncheck 'Application windows', 'Move left a space' and 'Move right a space'
+    - uncheck 'Mission control', 'Application windows', 'Move left a space' and 'Move right a space'
