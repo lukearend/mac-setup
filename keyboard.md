@@ -47,11 +47,7 @@ Right command, when combined with left-hand alphanumerics or brackets, becomes a
 
 Holding down the left space bar (keypad_6) shifts the top two rows of the keyboard one row down. This prevents one from having to stretch their fingers as much to reach the upper rows.
 
-- keypad_6 as a virtual modifier, space if pressed alone
-- keypad_6 + \<tab\>qwert\<keypad_2\> -> \<grave accent\>1-6
-- keypad_6 + 1-6 -> f1-f6
-- keypad_6 + yuiop\<delete_or_backspace\>\<delete_forward\>/ -> 67890-=\<caps_lock\>
-- keypad_6 + 67890-= -> f6-f12
+Right command plus semicolon becomes return key.
 
 #### Karabiner simple mappings:
 
