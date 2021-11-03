@@ -37,17 +37,17 @@ Software mappings
 
 #### Karabiner complex mappings
 
-Right command can be combined with hjkl for left/down/up/right arrow keys, vim-style.
+Right command plus hjkl becomes left/down/up/right arrow keys, vim-style.
 
-Escape, when used in combination with hjkl, becomes control+left/down/up/right. This maps to the Spectacle actions for rearranging windows windows.
+Right command plus semicolon becomes return key (avoids having to stretch pinky).
 
-Escape, when combined with brackets or alphanumerics besides hjkl, becomes an alias to the control key. Escape is easier to reach with the left pinky than the left control key.
+Escape plus hjkl becomes control+left/down/up/right. (These are the keybindings mapped to Spectacle actions for rearranging windows.)
 
-Right command, when combined with left-hand alphanumerics or brackets, becomes an alias to the shift key. Right command is easier to reach than the right shift key.
+Escape, when combined with other alphanumerics or brackets, becomes an alias to the control key. Avoids having to stretch left pinky down to hit left control.
 
-Holding down the left space bar (keypad_6) shifts the top two rows of the keyboard one row down. This prevents one from having to stretch their fingers as much to reach the upper rows.
+Holding down the left space bar (keypad_6) shifts the top two rows of the keyboard one row down. This prevents one from having to stretch their fingers as much to reach upper rows.
 
-Right command plus semicolon becomes return key.
+Right command, when combined with left-hand alphanumerics or brackets, becomes an alias to the shift key. This prevents having to stretch the right pinky to reach the right shift key.
 
 #### Karabiner simple mappings:
 
