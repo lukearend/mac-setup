@@ -22,7 +22,7 @@ Koolertron split mechanical keyboard:
 | Esc     | A   | S   | D   | F   | G   | Num  |           | H   | J   | K   | L   | ; : | ' " | Return      |
 |         |     |     |     |     |     | 5    |           |     |     |     |     |     |     |             |
 ----------+--+--+--+--+--+--+--+--+--+--+--+---+-+      +--+--+--+--+--+--+--+--+--+--+--+--+--+-------------+
-| Shift (L)  | Z   | X   | C   | V   | B   | ] } |      | [ { | N   | M   | , < | . > | / ? | Shift (R)      |
+| Shift (L)  | Z   | X   | C   | V   | B   | [ { |      | ] } | N   | M   | , < | . > | / ? | Shift (R)      |
 |            |     |     |     |     |     |     |      |     |     |     |     |     |     |                |
 +------+-----++----+-+---+--+--+-----+-----+-----+      +-----+-----+-----+-----+-----+-----+-----+----------+
 | Del  | Ctrl | Opt  | Cmd  | Num          | Num |      | Space     | Cmd | ←   | ↓   | ↑   | →   | Ctrl |
@@ -37,32 +37,15 @@ Software mappings
 
 #### Karabiner complex mappings
 
-Right command can be combined with hjkl for vim-style cursor navigation.
+Right command can be combined with hjkl for left/down/up/right arrow keys, vim-style.
 
-- right_command + hjkl -> left/down/up/right arrow keys
+Escape, when used in combination with hjkl, becomes control+left/down/up/right. This maps to the Spectacle actions for rearranging windows windows.
 
-Escape, when combined with certain keys, becomes an alias to the control key. Escape is easier to reach with the left pinky than the left control key.
+Escape, when combined with brackets or alphanumerics besides hjkl, becomes an alias to the control key. Escape is easier to reach with the left pinky than the left control key.
 
-- escape as virtual modifier
-- escape + c -> control + c (CLI interrupt)
-- escape + e/y -> ctrl + e/y (vim line down/up)
-- escape + r -> control + r (vim redo)
-- escape + right_command + hjkl -> control + left/down/up/right arrow keys (Spectacle actions)
+Right command, when combined with left-hand alphanumerics or brackets, becomes an alias to the shift key. Right command is easier to reach than the right shift key.
 
-Right command, when combined with certain keys on the left side, becomes an alias to the shift key. Right command is easier to reach than the right shift key; it obviates the swivel of the wrist to press shift with the right pinky.
-
-- right_command + a -> shift + a (vim end of line, insert mode)
-- right_command + r -> shift + r (vim replace mode)
-- right_command + t -> shift + t (vim skip until backwards)
-- right_command + f -> shift + f (vim find in line backwards)
-- right_command + x -> shift + x (vim delete backwards)
-- right_command + g -> shift + g (vim go to)
-- right_command + v -> shift + v (vim visual line)
-- right_command + s -> shift + s (vim delete line and enter insert mode)
-
-than right shift when holding shift for left-hand keys in vim commands like V (visual select), A (end of line, insert mode), G (go to); it obviates the rightward swivel of the wrist to press shift with the right pinky.
-
-Holding keypad_6 shifts the top two rows of the keyboard one row down. This prevents one from having to stretch their fingers to reach two rows above the home row (unless to press F keys). If pressed alone acts as a regular space bar press.
+Holding down the left space bar (keypad_6) shifts the top two rows of the keyboard one row down. This prevents one from having to stretch their fingers as much to reach the upper rows.
 
 - keypad_6 as a virtual modifier, space if pressed alone
 - keypad_6 + \<tab\>qwert\<keypad_2\> -> \<grave accent\>1-6
