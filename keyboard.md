@@ -43,7 +43,14 @@ Right command plus semicolon becomes return key (avoids having to stretch pinky)
 
 Escape, when combined with alphanumerics or brackets, becomes an alias to the control key. This avoids having to stretch left pinky down to hit left control.
 
-Holding down the left space bar (keypad_6) shifts the top two rows of the keyboard one row down. This prevents one from having to stretch their fingers as much to reach upper rows.
+Holding down the left space bar (keypad_6) shifts the top two rows of the keyboard one row down. This prevents one from having to stretch their fingers as much to reach upper rows. It also maps:
+
+- h to delete
+- j to enter
+- k to option+backspace (delete backwards until next whitespace)
+- l to forward delete
+
+Holding down the space bar also maps
 
 Right command, when combined with left-hand alphanumerics or brackets, becomes an alias to the shift key. This prevents having to stretch the right pinky to reach the right shift key.
 
