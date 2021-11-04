@@ -41,9 +41,7 @@ Right command plus hjkl becomes left/down/up/right arrow keys, vim-style.
 
 Right command plus semicolon becomes return key (avoids having to stretch pinky).
 
-Escape plus hjkl becomes control+left/down/up/right. (These are the keybindings mapped to Spectacle actions for rearranging windows.)
-
-Escape, when combined with other alphanumerics or brackets, becomes an alias to the control key. Avoids having to stretch left pinky down to hit left control.
+Escape, when combined with alphanumerics or brackets, becomes an alias to the control key. This avoids having to stretch left pinky down to hit left control.
 
 Holding down the left space bar (keypad_6) shifts the top two rows of the keyboard one row down. This prevents one from having to stretch their fingers as much to reach upper rows.
 
@@ -65,3 +63,11 @@ Built-in Apple keyboard:
 
 - caps lock -> esc
 - esc -> caps lock
+
+#### Spectacle hotkey settings:
+
+- Fullscreen: control+k
+- Next display: control+j
+- Left half: control+h
+- Right half: control+l
+- All other actions unmapped
