@@ -25,3 +25,17 @@ Iterm2:
 
 - Appearance -> Theme -> set to Compact
 - Appearance -> Tabs bar -> Top
+
+Sublime Text 3:
+
+- Packages:
+
+    - Monokai++
+    - MoveTab
+    - NeoVintageous
+    - Origami
+    - Package Control
+    - Pretty JSON
+    - SFTP
+    - SublimeLinter
+    - WordCount
