@@ -62,8 +62,8 @@ Koolertron:
 - keypad_1 -> f7
 - keypad_2 -> 6
 - keypad_3 -> 7
-- keypad_4 -> y
-- keypad_5 -> h
+- keypad_4 -> grave_accent_or_tilde
+- keypad_5 -> tab
 - keypad_7 -> fn
 
 Built-in Apple keyboard:
