@@ -16,14 +16,14 @@ Koolertron split mechanical keyboard:
 | ` ~ | 1 ! | 2 @ | 3 # | 4 $ | 5 % | Num | Num |      | 6 ^ | 7 & | 8 * | 9 ( | 0 ) | - _ | = + | Caps lock |
 |     |     |     |     |     |     | 2   | 3   |      |     |     |     |     |     |     |     |           |
 +-----+--+--+--+--+--+--+--+--+--+--+--+--+-----+      +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--------+
-| Tab    | Q   | W   | E   | R   | T   | Num    |         | Y   | U   | I   | O   | P   | Del | Del | \ |    |
-|        |     |     |     |     |     | 4      |         |     |     |     |     |     |     | fwd |        |
+| Tab    | Q   | W   | E   | R   | T   | Num    |         | Y   | U   | I   | O   | P   | [ { | } ] | \ |    |
+|        |     |     |     |     |     | 4      |         |     |     |     |     |     |     |     |        |
 +--------++----++----++----++----++----++------++         ++----++----++----++----++----++-----+--------------
 | Esc     | A   | S   | D   | F   | G   | Num  |           | H   | J   | K   | L   | ; : | ' " | Return      |
 |         |     |     |     |     |     | 5    |           |     |     |     |     |     |     |             |
 ----------+--+--+--+--+--+--+--+--+--+--+--+---+-+      +--+--+--+--+--+--+--+--+--+--+--+--+--+-------------+
-| Shift (L)  | Z   | X   | C   | V   | B   | [ { |      | ] } | N   | M   | , < | . > | / ? | Shift (R)      |
-|            |     |     |     |     |     |     |      |     |     |     |     |     |     |                |
+| Shift (L)  | Z   | X   | C   | V   | B   | Del |      | Del | N   | M   | , < | . > | / ? | Shift (R)      |
+|            |     |     |     |     |     | fwd |      |     |     |     |     |     |     |                |
 +------+-----++----+-+---+--+--+-----+-----+-----+      +-----+-----+-----+-----+-----+-----+-----+----------+
 | Del  | Ctrl | Opt  | Cmd  | Num          | Num |      | Space     | Cmd | ←   | ↓   | ↑   | →   | Ctrl |
 |      | (L)  |      | (L)  | 6            | 7   |      |           | (R) |     |     |     |     | (R)  |
@@ -46,7 +46,7 @@ Escape, when combined with alphanumerics or brackets, becomes an alias to the co
 Holding down the left space bar (keypad_6) shifts the top two rows of the keyboard one row down. This prevents one from having to stretch their fingers as much to reach upper rows. It also maps:
 
 - h to delete
-- j to enter
+- j to return
 - k to option+backspace (delete backwards until next whitespace)
 - l to forward delete
 
