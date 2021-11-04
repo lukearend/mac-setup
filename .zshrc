@@ -26,14 +26,13 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 # unset PYTHONPATH
 unset PYTHONPATH
 
-# Nice cosmetic things: coloring, command prompt change, and improved ls
+# Nice cosmetic things: coloring, command prompt change, and improved ls:
 # from osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/
-# Reorder command prompt listing:
-# export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-# Find anything before last directory and replace it with nothing:
-export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\W\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
+
+# Show only current directory at the command prompt.
+export PS1="%1d$ "
 
 # End manually written contents ##############################################
