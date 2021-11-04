@@ -52,7 +52,7 @@ Holding down the left space bar (keypad_6) shifts the top two rows of the keyboa
 
 Holding down the space bar also maps
 
-Right command, when combined with left-hand alphanumerics or brackets, becomes an alias to the shift key. This prevents having to stretch the right pinky to reach the right shift key.
+Right command, when combined with left-hand alphanumerics, becomes an alias to the shift key. This prevents having to stretch the right pinky to reach the right shift key.
 
 #### Karabiner simple mappings:
 
