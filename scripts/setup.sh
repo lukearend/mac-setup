@@ -3,34 +3,27 @@
 # Current User
 user=$(id -un)
 
-# Script's color palette
-reset="\033[0m"
-highlight="\033[42m\033[97m"
-dot="\033[33m▸ $reset"
-dim="\033[2m"
-bold="\033[1m"
-
 # Keep-alive: update existing `sudo` time stamp until script has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 headline() {
-    printf "${highlight} %s ${reset}\n" "$@"
+    printf "%s\n" "$@"
 }
 
 chapter() {
-    echo "${highlight} $((count++)).) $@ ${reset}\n"
+    echo "$((count++)).) $@\n"
 }
 
 # Prints out a step, if last parameter is true then without an ending newline
 step() {
     if [ $# -eq 1 ]
-    then echo "${dot}$@"
-    else echo "${dot}$@"
+    then echo $@
+    else echo $@
     fi
 }
 
 run() {
-    echo "${dim}▹ $@ $reset"
+    echo $@
     eval $@
 }
 
@@ -51,7 +44,7 @@ then
 fi
 
 step "Setting your computer name (as done via System Preferences → Sharing)."
-echo "What would you like it to be? $bold"
+echo "What would you like it to be?"
 read computer_name
 echo "$reset"
 run sudo scutil --set ComputerName "'$computer_name'"
@@ -264,7 +257,7 @@ run brew install ffmpeg
 # Install all the Mac App Store applications using mas. https://github.com/mas-cli/mas
 mac_app_login=$(mas account | grep @)
 if [ -z "$mac_app_login" ] ; then
-    chapter "Let's install Mac App Store applications. What is your Mac App Store email login? $bold"
+    chapter "Let's install Mac App Store applications. What is your Mac App Store email login?"
     read mac_app_login
     run mas signin $mac_app_login
 fi

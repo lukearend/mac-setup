@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the Assembly x86 syntax
+{
+    "word_wrap": 78,
+    "translate_tabs_to_spaces": true,
+    "tab_size": 2
+}

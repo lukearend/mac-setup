@@ -1,0 +1,50 @@
+all: help
+
+run-setup:          ## Run the main setup. This is the first step in setting up a new Mac.
+	cd scripts && bash setup.sh
+
+apply-all: bashrc vimrc karabiner sublime iterm
+
+pull-all: bash-pull vimrc-pull karabiner-pull sublime-pull iterm-pull alfred-pull
+
+bashrc:             ## Configure bash by (over)writing loca .bashrc and .bash_profile.
+	cp bash/.bashrc ~/.bashrc
+	cp bash/.bash_profile ~/.bash_profile
+
+bash-aliases:       ## Initialize an empty bash aliases file (warning: overwrites).
+	cp bash/.bash_aliases ~/.bash_aliases
+
+bash-pull:          ## Replace this repo's .bashrc/bash_profile with the local user's.
+	cp ~/.bashrc bash/.bashrc
+	cp ~/.bash_profile bash/.bash_profile
+
+vimrc:              ## Configure local vim.
+	cp vim/.vimrc ~/.vimrc
+
+vimrc-pull:         ## Replace .vimrc in this repository with local .vimrc.
+	cp ~/.vimrc vim/.vimrc
+
+karabiner:          ## Configure local karabiner.
+	cp keyboard/karabiner.json ~/.config/karabiner/karabiner.json
+
+karabiner-pull:     ## Replace this repo's karabiner config with the local installation's.
+	cp ~/.config/karabiner/karabiner.json keyboard/karabiner.json
+
+sublime:            ## Configure local Sublime Text.
+	cp -r sublime/* ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*
+
+sublime-pull:       ## Replace this repo's Sublime Text settings with the local installation's.
+	rm -rf sublime/*
+	cp -r ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/* sublime/
+
+iterm:
+	cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+
+iterm-pull:
+	rm -f iterm/com.googlecode.iterm2.plist
+	cp ~/Library/Preferences/com.googlecode.iterm2.plist iterm/com.googlecode.iterm2.plist
+
+help:               ## Show this help.
+	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
+
+.PHONY: alfred sublime iterm
