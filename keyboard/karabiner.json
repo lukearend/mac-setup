@@ -3337,7 +3337,7 @@
                             },
                             "to": [
                                 {
-                                    "key_code": "display_brightness_increment"
+                                    "key_code": "f6"
                                 }
                             ]
                         },
@@ -3347,7 +3347,7 @@
                             },
                             "to": [
                                 {
-                                    "key_code": "rewind"
+                                    "key_code": "f7"
                                 }
                             ]
                         },

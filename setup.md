@@ -55,8 +55,9 @@ System preferences
         - uncheck "Use F1, F2, etc. as standard function keys on external keyboards"
     - Shortcuts
         - Mission Control
-            - uncheck 'Mission control', 'Application windows', 'Move left a space' and 'Move right a space'
-            - set 'Show Desktop' to F4 and check
+            - uncheck all except 'Mission Control' and 'Application windows'
+            - set 'Mission Control' to F3
+            - set 'Show Desktop' to F4
             - at bottom, check 'Use keyboard navigation to move focus between controls'
         - Spotlight
             - uncheck 'Show Spotlight search'
