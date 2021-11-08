@@ -5,7 +5,7 @@ run-setup:          ## Run the main setup. This is the first step in setting up 
 
 apply-all: bashrc vimrc karabiner sublime iterm
 
-pull-all: bash-pull vimrc-pull karabiner-pull sublime-pull iterm-pull alfred-pull
+pull-all: bash-pull vimrc-pull karabiner-pull sublime-pull iterm-pull
 
 bashrc:             ## Configure bash by (over)writing loca .bashrc and .bash_profile.
 	cp bash/.bashrc ~/.bashrc
@@ -47,4 +47,4 @@ iterm-pull:
 help:               ## Show this help.
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
 
-.PHONY: alfred sublime iterm
+.PHONY: sublime iterm

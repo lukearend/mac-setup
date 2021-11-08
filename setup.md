@@ -10,6 +10,7 @@ Manual installations
 - install Docker
 - install Discord
 - install ExpressVPN
+- install git/gh
 - install Google Drive
 - install Hex Fiend 
 - install iTerm2
