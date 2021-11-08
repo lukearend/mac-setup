@@ -1397,7 +1397,7 @@
                         ]
                     },
                     {
-                        "description": "Change right_command+n/m to ctrl+e/y",
+                        "description": "Change right_command+n/m to ctrl+e/y (vim scroll down/up)",
                         "manipulators": [
                             {
                                 "from": {
@@ -3340,7 +3340,7 @@
                             },
                             "to": [
                                 {
-                                    "key_code": "delete_forward"
+                                    "key_code": "delete_or_backspace"
                                 }
                             ]
                         },

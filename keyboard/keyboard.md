@@ -105,7 +105,7 @@ The default keyboard layout after software remapping is shown below. This is mea
 | Ctrl    |     |     |     |     |     | app |            |     |     |     |     |     |     |             |
 +---------+--+--+--+--+--+--+--+--+--+--+--+--+--+      +--+--+--+--+--+--+--+--+--+--+--+--+--+-------------+
 | Shift      | Z   | X   | C   | V   | B   | Del |      | Del | N   | M   | , < | . > | / ? | Shift (R)      |
-|            |     |     |     |     |     | fwd |      |     |     |     |     |     |     |                |
+|            |     |     |     |     |     |     |      |     |     |     |     |     |     |                |
 +------+-----++----+-+---+--+--+-----+-----+-----+      +-----+-----+-----+-----+-----+-----+-----+------+---+
 | Fn   | Ctrl | Opt  | Cmd  | Space        | Key |      | Space     |Cmd/ | ←   | ↓   | ↑   | →   | Key  |
 |      |      |      |      |              | map |      |           |Shift|     |     |     |     | map  |
@@ -129,7 +129,7 @@ When the super key is held down, the keyboard changes to the below. This is mean
 | lock    |     |     |     |     | left|right|            |     |     |     | word|     |     |             |
 +---------+--+--+--+--+--+--+--+--+--+--+--+--+--+      +--+--+--+--+--+--+--+--+--+--+--+--+--+-------------+
 | Shift      | Z   | X   | C   | V   |Space| Del |      | Del | N   | M   | - _ | = + | \ | | Shift          |
-|            |     |     |     |     |     | fwd |      |     |     |     |     |     |     |                |
+|            |     |     |     |     |     |     |      |     |     |     |     |     |     |                |
 +------+-----++----+-+---+--+--+-----+-----+-----+      +-----+-----+-----+-----+-----+-----+-----+------+---+
 | Fn   | Ctrl | Opt  | Cmd  | Super        | Key |      | Space     |Cmd/ | ←   | ↓   | ↑   | →   | Key  |
 |      |      |      |      | (if held)    | map |      |           |Shift|     |     |     |     | map  |
@@ -178,7 +178,7 @@ Koolertron:
 - keypad_1 -> f7
 - keypad_2 -> 6
 - keypad_3 -> 7
-- keypad_6 -> delete_forward
+- keypad_6 -> delete_or_backspace
 - keypad_7 -> fn
 
 Built-in Apple keyboard:
