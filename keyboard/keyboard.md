@@ -112,6 +112,7 @@ Reach reduction:
 - control: combine escape with alphanumeric keys or symbols
 - tick, numbers, parentheses and caps lock: hold super to shift to qwerty row (also shifts F keys row to number row)
 - right shift: right command on ordinary keyboard (applies to left hand keys only)
+- caps lock: super + caps lock on an ordinary keyboard
 - minus/equals: super + comma/period
 - underscore/plus: super + shift + comma/period
 - brackets: super + semicolon/quote
@@ -160,8 +161,8 @@ When the super key is held down, the keyboard changes to this:
 | ` ~    | 1 ! | 2 @ | 3 # | 4 $ | 5 % | 6 ^    |         | 6 ^ | 7 ^ | 8 * | 9 ( | 0 ) | - _ | = + | Caps   |
 |        |     |     |     |     |     |        |         |     |     |     |     |     |     |     | lock   |
 +--------++----++----++----++----++----++-----+-+         ++----++----++----++----++----++-----+--------------
-| Esc/    | A   | S   | D   | F   | App | App |            | Tab |Enter| Del | Del | [ { | ] } | Enter       |
-| Ctrl    |     |     |     |     | left|right|            |     |     |     | word|     |     |             |
+| Caps    | A   | S   | D   | F   | App | App |            | Tab |Enter| Del | Del | [ { | ] } | Enter       |
+| lock    |     |     |     |     | left|right|            |     |     |     | word|     |     |             |
 ----------+--+--+--+--+--+--+--+--+--+--+--+--+--+      +--+--+--+--+--+--+--+--+--+--+--+--+--+-------------+
 | Shift (L)  | Z   | X   | C   | V   |Space| Del |      | Del | N   | M   | - _ | = + | \ | | Shift (R)      |
 |            |     |     |     |     |     | fwd |      |     |     |     |     |     |     |                |

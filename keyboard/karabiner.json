@@ -16,6 +16,66 @@
                 },
                 "rules": [
                     {
+                        "description": "Make keypad_8 a virtual modifier (super key)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_8",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "super_modifier",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "super_modifier",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Change super+escape to caps lock",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "super_modifier",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "escape",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Make escape a virtual modifier",
                         "manipulators": [
                             {
@@ -46,38 +106,6 @@
                                 "to_if_alone": [
                                     {
                                         "key_code": "escape"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Make keypad_8 a virtual modifier (super key)",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "keypad_8",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "super_modifier",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "super_modifier",
-                                            "value": 0
-                                        }
                                     }
                                 ],
                                 "type": "basic"
