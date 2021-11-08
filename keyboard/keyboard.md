@@ -188,8 +188,8 @@ Built-in Apple keyboard:
 
 ###### Spectacle hotkey settings:
 
-- Fullscreen: control+up arrow
-- Next display: control+down arrow
-- Left half: control+left arrow
-- Right half: control+right arrow
+- Fullscreen: control+k
+- Next display: control+j
+- Left half: control+h
+- Right half: control+l
 - All other actions unmapped
