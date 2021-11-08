@@ -16,7 +16,7 @@
                 },
                 "rules": [
                     {
-                        "description": "Make keypad_8 a virtual modifier (super key)",
+                        "description": "Make keypad_8 a virtual modifier (super key, space if pressed alone)",
                         "manipulators": [
                             {
                                 "from": {
@@ -41,6 +41,11 @@
                                             "name": "super_modifier",
                                             "value": 0
                                         }
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "spacebar"
                                     }
                                 ],
                                 "type": "basic"
