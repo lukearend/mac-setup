@@ -1,2 +1,4 @@
 .DS_Store
 
+sublime/sftp/*.sublime-color-scheme
+sublime/sftp/sftp/*
