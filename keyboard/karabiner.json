@@ -3400,6 +3400,16 @@
                                     "key_code": "caps_lock"
                                 }
                             ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "spacebar"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "keypad_8"
+                                }
+                            ]
                         }
                     ]
                 },
