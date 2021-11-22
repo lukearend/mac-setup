@@ -1568,7 +1568,7 @@
                         ]
                     },
                     {
-                        "description": "Change super+slash to backslash",
+                        "description": "Change super+[/] to {/}",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1579,7 +1579,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "slash",
+                                    "key_code": "open_bracket",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -1588,35 +1588,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "backslash"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Change super+,/. to -/=",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "comma",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "hyphen"
+                                        "key_code": "open_bracket",
+                                        "modifiers": "left_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -1630,7 +1603,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "close_bracket",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -1639,7 +1612,37 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign"
+                                        "key_code": "close_bracket",
+                                        "modifiers": "left_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Change super+backslash to pipe",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "super_modifier",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "backslash",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "backslash",
+                                        "modifiers": "left_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -1698,7 +1701,27 @@
                         ]
                     },
                     {
-                        "description": "Patch super and right_control modifiers to work together for left-hand qwerty row",
+                        "description": "delete_or_backspace (alone) to underscore",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "delete_or_backspace",
+                                    "modifiers": {
+                                        "optional": []
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen",
+                                        "modifiers": "left_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Change super+delete_or_backspace to underscore",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1709,11 +1732,8 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "tab",
+                                    "key_code": "delete_or_backspace",
                                     "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ],
                                         "optional": [
                                             "any"
                                         ]
@@ -1721,170 +1741,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": "right_shift"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "q",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "1",
-                                        "modifiers": "right_shift"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "w",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "2",
-                                        "modifiers": "right_shift"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "e",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "3",
-                                        "modifiers": "right_shift"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "r",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "4",
-                                        "modifiers": "right_shift"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "t",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "5",
-                                        "modifiers": "right_shift"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "keypad_4",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "6",
-                                        "modifiers": "right_shift"
+                                        "key_code": "hyphen",
+                                        "modifiers": "left_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -1892,7 +1750,115 @@
                         ]
                     },
                     {
-                        "description": "Hold super key to shift top two rows of keyboard one row down",
+                        "description": "Change super+n to hyphen",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "super_modifier",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Change super+,/. to =/+",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "super_modifier",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "comma",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "equal_sign"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "super_modifier",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "period",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "equal_sign",
+                                        "modifiers": "left_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Change super+slash to backslash",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "super_modifier",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "slash",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "backslash"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Hold super key to shift F-keys and symbol row down by one row",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -2188,7 +2154,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "grave_accent_and_tilde"
+                                        "key_code": "grave_accent_and_tilde",
+                                        "modifiers": "right_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2211,7 +2178,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "1"
+                                        "key_code": "1",
+                                        "modifiers": "right_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2234,7 +2202,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "2"
+                                        "key_code": "2",
+                                        "modifiers": "right_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2257,7 +2226,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "3"
+                                        "key_code": "3",
+                                        "modifiers": "right_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2280,7 +2250,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "4"
+                                        "key_code": "4",
+                                        "modifiers": "right_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2303,7 +2274,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "5"
+                                        "key_code": "5",
+                                        "modifiers": "right_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2326,7 +2298,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "6"
+                                        "key_code": "6",
+                                        "modifiers": "right_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2349,30 +2322,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "6"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "grave_accent_and_tilde",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "6"
+                                        "key_code": "6",
+                                        "modifiers": "left_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2395,7 +2346,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "7"
+                                        "key_code": "7",
+                                        "modifiers": "left_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2418,7 +2370,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "8"
+                                        "key_code": "8",
+                                        "modifiers": "left_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2441,7 +2394,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "9"
+                                        "key_code": "9",
+                                        "modifiers": "left_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -2464,76 +2418,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "0"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "hyphen"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "close_bracket",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "equal_sign"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "super_modifier",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "backslash",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "caps_lock"
+                                        "key_code": "0",
+                                        "modifiers": "left_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -3340,7 +3226,7 @@
                             },
                             "to": [
                                 {
-                                    "key_code": "delete_or_backspace"
+                                    "key_code": "delete_forward"
                                 }
                             ]
                         },
