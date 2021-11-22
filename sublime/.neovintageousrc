@@ -1,0 +1,4 @@
+" Type :help nv for help.
+set backspace=indent,eol,start
+set number relativenumber
+vnoremap p "_dP"

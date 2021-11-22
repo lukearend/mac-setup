@@ -14,7 +14,6 @@
 		"Pretty JSON",
 		"SFTP",
 		"SublimeLinter",
-		"SublimeLinter-contrib-gometalinter",
 		"SublimeLinter-golint",
 		"WordCount",
 	],

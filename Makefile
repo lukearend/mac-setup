@@ -35,9 +35,11 @@ karabiner-pull:     ## Replace this repo's karabiner config with the local insta
 	cp ~/.config/karabiner/karabiner.json keyboard/karabiner.json
 
 sublime:            ## Configure local Sublime Text.
+	cp -r sublime/.neovintagousrc ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/.neovintageousrc
 	cp -r sublime/* ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*
 
 sublime-pull:       ## Replace this repo's Sublime Text settings with the local installation's.
+	cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/.neovintageousrc sublime/.neovintageousrc
 	cp -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-settings sublime/
 
 iterm:
