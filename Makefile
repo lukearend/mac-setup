@@ -38,8 +38,7 @@ sublime:            ## Configure local Sublime Text.
 	cp -r sublime/* ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*
 
 sublime-pull:       ## Replace this repo's Sublime Text settings with the local installation's.
-	rm -rf sublime/*
-	cp -r ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/* sublime/
+	cp -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-settings sublime/
 
 iterm:
 	cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
