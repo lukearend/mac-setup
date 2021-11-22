@@ -1,4 +1,50 @@
-" Type :help nv for help.
-set backspace=indent,eol,start
-set number relativenumber
-vnoremap p "_dP"
+" syntax on
+
+" set tabstop=4
+" set softtabstop=4
+" set expandtab
+
+" set autoindent
+
+" set number
+
+" set showcmd
+
+" set colorcolumn=80
+" set linebreak
+
+" set ruler
+
+" set showmatch
+
+" set incsearch
+" set hlsearch
+
+nnoremap <silent> <leader><space> :nohlsearch<CR>
+
+nnoremap B ^
+nnoremap E $
+vnoremap B ^
+vnoremap E $
+
+" inoremap jk <Esc>
+" inoremap Jk <Esc>
+" inoremap JK <Esc>
+
+nnoremap j gj
+nnoremap k gk
+
+nnoremap [<space> O<Esc>
+nnoremap ]<space> o<Esc>
+
+" set backspace=2
+
+nnoremap <space> viw
+vnoremap <space> v
+" nnoremap c<space> ciw
+
+nnoremap <silent> <leader>s :.s/\s\+$//e<CR>:nohlsearch<CR>
+
+" nnoremap <C-@> $wbhciw
+
+" set clipboard=unnamed
