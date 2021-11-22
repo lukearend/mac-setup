@@ -7,21 +7,25 @@ apply-all: bashrc vimrc karabiner sublime iterm
 
 pull-all: bash-pull vimrc-pull karabiner-pull sublime-pull iterm-pull
 
-bashrc:             ## Configure bash by (over)writing loca .bashrc and .bash_profile.
+bashrc:             ## Configure shell setup by overwriting local files.
 	cp bash/.bashrc ~/.bashrc
 	cp bash/.bash_profile ~/.bash_profile
+	cp bash/.profile ~/.profile
 
 bash-aliases:       ## Initialize an empty bash aliases file (warning: overwrites).
 	cp bash/.bash_aliases ~/.bash_aliases
 
-bash-pull:          ## Replace this repo's .bashrc/bash_profile with the local user's.
+bash-profile:       ## Initialize an empty
+
+bash-pull:          ## Replace this repo's bash/shell setup with the local user's.
 	cp ~/.bashrc bash/.bashrc
 	cp ~/.bash_profile bash/.bash_profile
+	cp ~/.profile bash/.profile
 
-vimrc:              ## Configure local vim.
+vim:              ## Configure local vim.
 	cp vim/.vimrc ~/.vimrc
 
-vimrc-pull:         ## Replace .vimrc in this repository with local .vimrc.
+vim-pull:         ## Replace .vimrc in this repository with local .vimrc.
 	cp ~/.vimrc vim/.vimrc
 
 karabiner:          ## Configure local karabiner.

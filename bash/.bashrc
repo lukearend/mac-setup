@@ -20,10 +20,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# Enable command `subl` to open Sublime Text from the CLI.
-export PATH="/$PATH:Applications/Sublime Text.app/Contents/SharedSupport/bin"
-export PATH=$PATH:/opt/local/bin
-
 # Do not update homebrew every time a package is installed.
 export HOMEBREW_NO_AUTO_UPDATE=1
 
@@ -31,9 +27,6 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-
-# Unset PYTHONPATH
-unset PYTHONPATH
 
 # Coloring and command prompt improvements.
 export CLICOLOR=1
