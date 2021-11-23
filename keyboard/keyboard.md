@@ -128,7 +128,7 @@ When the super key is held down, the keyboard changes to the below. This is mean
 | Caps    | A   | S   | D   | F   | App | App |            | Tab |Enter| Del | Del | [   | ]   | Enter       |
 | lock    |     |     |     |     | left|right|            |     |     |     | word|     |     |             |
 +---------+--+--+--+--+--+--+--+--+--+--+--+--+--+      +--+--+--+--+--+--+--+--+--+--+--+--+--+-------------+
-| Shift      | Z   | X   | C   | V   |Space| Del |      | _   | -   | M   | =   | +   | \   | Shift          |
+| Shift      | Z   | X   | C   | V   |Space| Del |      | _   | -   | M   | +   | =   | \   | Shift          |
 |            |     |     |     |     |     |     |      |     |     |     |     |     |     |                |
 +------+-----++----+-+---+--+--+-----+-----+-----+      +-----+-----+-----+-----+-----+-----+-----+------+---+
 | Fn   | Ctrl | Opt  | Cmd  | Super        | Key |      | Space     |Cmd/ | ←   | ↓   | ↑   | →   | Key  |

@@ -1778,7 +1778,7 @@
                         ]
                     },
                     {
-                        "description": "Change super+,/. to =/+",
+                        "description": "Change super+,/. to +/=",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1798,7 +1798,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign"
+                                        "key_code": "equal_sign",
+                                        "modifiers": "left_shift"
                                     }
                                 ],
                                 "type": "basic"
@@ -1821,8 +1822,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign",
-                                        "modifiers": "left_shift"
+                                        "key_code": "equal_sign"
                                     }
                                 ],
                                 "type": "basic"
