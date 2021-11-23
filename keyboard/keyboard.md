@@ -129,7 +129,7 @@ When the super key is held down, the keyboard changes to the below. This is mean
 | lock    |     |     |     |     | left|right|            |     |     |     | word|     |     |             |
 +---------+--+--+--+--+--+--+--+--+--+--+--+--+--+      +--+--+--+--+--+--+--+--+--+--+--+--+--+-------------+
 | Shift      | Z   | X   | C   | V   |Space| Del |      | _   | +   | |   | -   | =   | \   | Shift          |
-|            |     |     |     |     |     |     |      |     |     |     |     |     |     |                |
+|            |     |     |     |     |     | fwd |      |     |     |     |     |     |     |                |
 +------+-----++----+-+---+--+--+-----+-----+-----+      +-----+-----+-----+-----+-----+-----+-----+------+---+
 | Fn   | Ctrl | Opt  | Cmd  | Super        | Key |      | Space     |Cmd/ | ←   | ↓   | ↑   | →   | Key  |
 |      |      |      |      | (if held)    | map |      |           |Shift|     |     |     |     | map  |
