@@ -22,10 +22,10 @@ bash-pull:          ## Replace this repo's bash/shell setup with the local user'
 	cp ~/.bash_profile bash/.bash_profile
 	cp ~/.profile bash/.profile
 
-vim:              ## Configure local vim.
+vim:                ## Configure local vim.
 	cp vim/.vimrc ~/.vimrc
 
-vim-pull:         ## Replace .vimrc in this repository with local .vimrc.
+vim-pull:           ## Replace .vimrc in this repository with local .vimrc.
 	cp ~/.vimrc vim/.vimrc
 
 karabiner:          ## Configure local karabiner.
