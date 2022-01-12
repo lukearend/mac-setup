@@ -6,5 +6,8 @@ fi
 if [ -f ~/.bashrc ]; then
     source ~/.bashrc
 fi
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
 
 # End mac-setup contents #####################################################

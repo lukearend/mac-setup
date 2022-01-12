@@ -237,6 +237,9 @@ else
     run brew update
 fi
 
+# Install git auto completion (must source ~/.git-completion.bash in .bash_profile)
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
 echo "Install an updated OpenSSL."
 run brew install openssl
 
