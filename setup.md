@@ -112,3 +112,8 @@ Menumeters
 ----------
 
 Setup preferences according to screenshots in `menumeters` directory.
+
+JetBrains
+---------
+
+Install plugins Vim Emulation and TabMover. Remap TabMover move tab left/move tab right to ctrl+opt+cmd+left/right arrow.
