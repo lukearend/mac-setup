@@ -17,11 +17,6 @@
             <ProjectPluginTracker />
           </value>
         </entry>
-        <entry key="23f1ELIngjS311r25BlzD2fbU8P">
-          <value>
-            <ProjectPluginTracker />
-          </value>
-        </entry>
       </map>
     </trackers>
   </component>
@@ -30,9 +25,6 @@
     <languageToProjectMap>
       <entry key="Python" value="$USER_HOME$/Library/Caches/JetBrains/PyCharmCE2021.3/demo/PyCharmLearningProject" />
     </languageToProjectMap>
-  </component>
-  <component name="NodeJsLocalInterpreters">
-    <local-interpreter path="/usr/local/bin/node" />
   </component>
   <component name="PropertiesComponent">
     <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
@@ -66,8 +58,8 @@
     <property name="CWM_LOGGING_VERSION" value="1" />
     <property name="ColorChooser.RecentColors" value="102-217-239-255,,,249-38-114-255,,,253-151-31-255" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
-    <property name="KEYMAP" value="Run&#10;Debug&#10;terminal" />
-    <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap&#10;monokai&#10;/tag:theme" />
+    <property name="KEYMAP" value="move tab" />
+    <property name="MarketplacePluginsSearchHistory" value="tabmover&#10;monokai&#10;/tag:theme" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="PyCharm.InitialConfiguration" value="true" />
     <property name="PyCharm.InitialConfiguration.V2" value="true" />
@@ -78,16 +70,15 @@
     <property name="PyCharm.InitialConfiguration.V7" value="true" />
     <property name="SettingsSearchHistory" value="run&#10;run context configuration" />
     <property name="ShowUsagesActions.splitterServiceKey" value="0.2200957" />
-    <property name="appcds.runOnSecondStart" value="PY-213.6461.77-89559814a95eae56bd1b5ed8c82b38e701e6c968460d3f77aeeb307761de7903" />
+    <property name="appcds.runOnSecondStart" value="PC-213.6461.77-d34fa19f676f83b78ec81b3af9490c8556a1746301c5be137938a7620bafd5b3" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
     <property name="bundled.plugins.list.saved.version" value="PC-213.6461.77" />
     <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/projects/osrs-hiscores/env/bin/python3" />
-    <property name="file.gist.reindex.count" value="46" />
-    <property name="fileTypeChangedCounter" value="4" />
-    <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.docker.dockerFile.DockerFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
+    <property name="file.gist.reindex.count" value="25" />
+    <property name="fileTypeChangedCounter" value="3" />
+    <property name="fileTypeDetectors" value="com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
-    <property name="got.it.tooltip.database.schema.control.got.it" value="1" />
     <property name="got.it.tooltip.reader.mode.got.it" value="1" />
     <property name="gotit.previous.run" value="PC-213.6461.77" />
     <property name="ide.memory.adjusted" value="true" />
@@ -95,15 +86,13 @@
     <property name="ift.learning.panel.opened.in" value="213.6461.77" />
     <property name="ift.pycharm.onboarding.feedback.proposed" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/projects/osrs-hiscores/env/bin/python3" />
-    <property name="registry.to.advanced.settings.migration.build" value="PY-213.6461.77" />
+    <property name="registry.to.advanced.settings.migration.build" value="PC-213.6461.77" />
     <property name="selected.color.option.type" value="PY.BUILTIN_NAME" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
-    <property name="ts.lib.d.ts.version" value="4.4.4" />
   </component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="amber-cli-history" project-path="$USER_HOME$/src/amber-cli" last-access-time="1642542767005" />
-      <command-history-file filename="amber-cli-history2" project-path="$USER_HOME$/src/amber-cli" last-access-time="1642542766976" />
+      <command-history-file filename="osrs-hiscores-history" project-path="$USER_HOME$/projects/osrs-hiscores" last-access-time="1642226473478" />
     </command-history-files>
   </component>
 </application>
