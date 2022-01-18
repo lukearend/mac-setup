@@ -59,6 +59,10 @@ run sudo pmset -a sms 0
 echo "Disable press-and-hold for keys in favor of key repeat."
 run defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
+echo "Disable press-and-hold for JetBrains IDEs (they may override global defaults)."
+run defaults write com.jetbrains.pycharm ApplePressAndHoldEnabled -bool false
+run defaults write com.jetbrains.goland ApplePressAndHoldEnabled -bool false
+
 echo "Set a fast keyboard repeat rate, after a good initial delay."
 run defaults write NSGlobalDomain KeyRepeat -int 1
 run defaults write NSGlobalDomain InitialKeyRepeat -int 25
