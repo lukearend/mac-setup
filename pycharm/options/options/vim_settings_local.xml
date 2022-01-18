@@ -1,0 +1,179 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry encoding="base64">c2VsZWN0ZWQtdXNlcg==</entry>
+      </history-search>
+      <history-cmd>
+        <entry encoding="base64">d3E=</entry>
+        <entry encoding="base64">bGlub3JlbGF0aXZl</entry>
+        <entry encoding="base64">c2V0IHJlbGF0aXZlbnVtYmVy</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/Dummy.txt" timestamp="1642214956320">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/osrs-hiscores/src/data/build_app_data.py" timestamp="1642224358517">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1642480105135">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/osrs-hiscores/app/layout.py" timestamp="1642480019572">
+        <mark key="'" line="211" column="67" />
+        <mark key="[" line="158" column="38" />
+        <mark key="]" line="158" column="39" />
+        <mark key="." line="158" column="38" />
+        <mark key="^" line="158" column="39" />
+      </file>
+      <file name="/fragment.py" timestamp="1642227530276">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" timestamp="1642479989597">
+        <mark key="'" line="19" column="24" />
+        <mark key="[" line="108" column="8" />
+        <mark key="]" line="108" column="20" />
+        <mark key="." line="108" column="19" />
+        <mark key="^" line="108" column="20" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" timestamp="1642480278617">
+        <mark key="[" line="1" column="19" />
+        <mark key="]" line="1" column="19" />
+        <mark key="." line="1" column="18" />
+        <mark key="^" line="1" column="19" />
+      </file>
+      <file name="/" timestamp="1642221394100">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/osrs-hiscores/app/figures.py" timestamp="1642478803438">
+        <mark key="'" line="143" column="0" />
+        <mark key="[" line="165" column="75" />
+        <mark key="]" line="165" column="75" />
+        <mark key="." line="165" column="75" />
+        <mark key="^" line="165" column="75" />
+      </file>
+      <file name="$USER_HOME$/projects/osrs-hiscores/todo.txt" timestamp="1642227934092">
+        <mark key="[" line="2" column="59" />
+        <mark key="]" line="2" column="62" />
+        <mark key="^" line="2" column="62" />
+        <mark key="." line="2" column="61" />
+      </file>
+      <file name="$USER_HOME$/projects/osrs-hiscores/app/__init__.py" timestamp="1641944641210">
+        <mark key="[" line="22" column="57" />
+        <mark key="]" line="22" column="39" />
+        <mark key="^" line="22" column="39" />
+        <mark key="." line="22" column="38" />
+      </file>
+      <file name="$USER_HOME$/projects/osrs-hiscores/app/assets/skill_layout.json" timestamp="1642375840590">
+        <mark key="[" line="1" column="29" />
+        <mark key="]" line="1" column="29" />
+        <mark key="." line="1" column="30" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="16" column="4" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="74" column="13" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="122" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="14" column="28" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="112" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="242" column="39" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="28" column="12" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="103" column="16" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="18" column="40" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="32" column="12" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="159" column="24" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="37" column="19" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="76" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="38" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="42" column="21" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="123" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="264" column="33" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="77" column="63" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="35" column="13" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/osrs-hiscores/src/data/build_app_data.py" />
+      <jump line="45" column="32" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="31" column="11" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="32" column="16" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="31" column="12" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="275" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="93" column="32" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="127" column="8" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="141" column="31" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="211" column="67" filename="$USER_HOME$/projects/osrs-hiscores/app/layout.py" />
+      <jump line="130" column="20" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="1" column="13" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="133" column="37" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="8" column="27" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="15" column="12" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="19" column="24" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
+      <jump line="143" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">bG9va3VwX3BsYXllcg==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">bG9va3VwX3BsYXllcg==</text>
+      </register>
+      <register name="." type="4">
+        <text encoding="base64">ag==</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">c2VsZWN0ZWQtdXNlcg==</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNsdXN0ZXJfaWQgPSBwbGF5ZXJbJ2NsdXN0ZXJfaWQnXVtzcGxpdF0K</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">CiAgICBAYXBwLmNhbGxiYWNrKAogICAgICAgIE91dHB1dCgnc2VsZWN0ZWQtcGxheWVyJywgJ2RhdGEnKSwKICAgICAgICBJbnB1dCgnc2VsZWN0ZWQtY2x1c3RlcicsICdkYXRhJykKICAgICkKICAgIGRlZiBoYW5kbGVfc2VsZWN0ZWRfY2x1c3RlcihkYXRhKToKICAgICAgICBwcmludChkYXRhKQogICAgICAgIHJhaXNlIFByZXZlbnRVcGRhdGUK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludChjbHVzdGVyX2lkKQo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">CiAgICBAYXBwLmNhbGxiYWNrKAogICAgICAgIE91dHB1dCgnc2VsZWN0ZWQtcGxheWVyJywgJ2RhdGEnKSwKICAgICAgICBJbnB1dCgnc2VsZWN0ZWQtY2x1c3RlcicsICdkYXRhJykKICAgICkKICAgIGRlZiBoYW5kbGVfc2VsZWN0ZWRfY2x1c3RlcihkYXRhKToKICAgICAgICBwcmludChkYXRhKQogICAgICAgIHJhaXNlIFByZXZlbnRVcGRhdGUKCiAgICByZXR1cm4gYXBwCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">CiAgICBAYXBwLmNhbGxiYWNrKAogICAgICAgIE91dHB1dCgnc2VsZWN0ZWQtcGxheWVyJywgJ2RhdGEnKSwKICAgICAgICBJbnB1dCgnc2VsZWN0ZWQtY2x1c3RlcicsICdkYXRhJykKICAgICkKICAgIGRlZiBoYW5kbGVfc2VsZWN0ZWRfY2x1c3RlcihkYXRhKToKICAgICAgICBwcmludChkYXRhKQogICAgICAgIHJhaXNlIFByZXZlbnRVcGRhdGUKCiAgICByZXR1cm4gYXBwCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">CiAgICBAYXBwLmNhbGxiYWNrKAogICAgICAgIE91dHB1dCgnc2VsZWN0ZWQtdXNlci10ZXh0JywgJ2NoaWxkcmVuJyksCiAgICAgICAgSW5wdXQoJ3NlbGVjdGVkLXBsYXllcicsICdkYXRhJyksCiAgICApCiAgICBkZWYgc2VsZWN0X3VzZXIoZGF0YSk6CiAgICAgICAgaWYgZGF0YSBpcyBOb25lOgogICAgICAgICAgICByYWlzZSBQcmV2ZW50VXBkYXRlCgogICAgICAgIHJldHVybiAnJwo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdGV4dCA9ICIne30nOiBjbHVzdGVyIHt9ICh7Oi4yJX0gdW5pcXVlKSIuZm9ybWF0KHVzZXJuYW1lLCBjbHVzdGVyX2lkLCB1bmlxdWVuZXNzKQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">CiAgICAgICAgICAgICAgICByZXR1cm4gIid7fSc6IGNsdXN0ZXIge30gKHs6LjIlfSB1bmlxdWUpIi5mb3JtYXQodXNlcm5hbWUsIGNsdXN0ZXJfaWQsIHVuaXF1ZW5lc3MpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICByZXR1cm4gIm5vIHBsYXllciAne30nIGluIGRhdGFzZXQiLmZvcm1hdCh1c2VybmFtZSkK</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">c2V0IHJlbGF0aXZlbnVtYmVy</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">c2VsZWN0ZWQtdXNlcg==</last-search>
+      <last-pattern encoding="base64">c2VsZWN0ZWQtdXNlcg==</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+</application>

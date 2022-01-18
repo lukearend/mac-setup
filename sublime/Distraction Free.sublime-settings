@@ -1,4 +1,7 @@
 {
+    "line_numbers": true,
+    "gutter": true,
     "wrap_width": 100,
-    "word_wrap": true
+    "word_wrap": true,
+    "draw_centered": true
 }
