@@ -1,4 +1,4 @@
 imap jk <Esc>
 set backspace=indent,eol,start
-set number
+set relativenumber
 vnoremap p "_dP"
