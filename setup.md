@@ -55,9 +55,10 @@ System preferences
             - set fourth position to desktop reveal instead of launchpad
         - uncheck "Use F1, F2, etc. as standard function keys on external keyboards"
     - Shortcuts
+        - Launchpad & Dock
+            - uncheck 'Show Launchpad' (clear F11 for JetBrains to use)
         - Mission Control
-            - uncheck all except 'Mission Control' and 'Application windows'
-            - set 'Mission Control' to F3
+            - uncheck all except 'Show Desktop', 'Application windows'
             - set 'Show Desktop' to F4
             - at bottom, check 'Use keyboard navigation to move focus between controls'
         - Spotlight

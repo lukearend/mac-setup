@@ -3,10 +3,12 @@
     <history>
       <history-search>
         <entry encoding="base64">c2VsZWN0ZWQtdXNlcg==</entry>
+        <entry encoding="base64">LS1kZXY=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">d3E=</entry>
         <entry encoding="base64">bGlub3JlbGF0aXZl</entry>
+        <entry encoding="base64">cmVsYXRpdmVudW1iZXI=</entry>
         <entry encoding="base64">c2V0IHJlbGF0aXZlbnVtYmVy</entry>
       </history-cmd>
       <history-expr />
@@ -16,14 +18,26 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1642214956320">
+      <file name="/Dummy.txt" timestamp="1642539052446">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/osrs-hiscores/src/data/build_app_data.py" timestamp="1642224358517">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1642480105135">
+      <file name="$USER_HOME$/src/amber-cli/usage.py" timestamp="1642531965795">
+        <mark key="[" line="53" column="0" />
+        <mark key="]" line="53" column="0" />
+        <mark key="^" line="53" column="0" />
+        <mark key="." line="53" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1642542573932">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/5889b215-9cae-4314-97f8-9cc4cdf697c7/console.sql" timestamp="1642538548655">
+        <mark key="[" line="8" column="19" />
+        <mark key="]" line="8" column="19" />
+        <mark key="^" line="2" column="5" />
+        <mark key="." line="8" column="19" />
       </file>
       <file name="$USER_HOME$/projects/osrs-hiscores/app/layout.py" timestamp="1642480019572">
         <mark key="'" line="211" column="67" />
@@ -32,7 +46,7 @@
         <mark key="." line="158" column="38" />
         <mark key="^" line="158" column="39" />
       </file>
-      <file name="/fragment.py" timestamp="1642227530276">
+      <file name="/fragment.py" timestamp="1642542574020">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" timestamp="1642479989597">
@@ -41,6 +55,26 @@
         <mark key="]" line="108" column="20" />
         <mark key="." line="108" column="19" />
         <mark key="^" line="108" column="20" />
+      </file>
+      <file name="/console" timestamp="1642542774771">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/src/amber-cli/aws_admin.py" timestamp="1642542441268">
+        <mark key="'" line="116" column="22" />
+        <mark key="[" line="119" column="5" />
+        <mark key="]" line="119" column="6" />
+        <mark key="^" line="119" column="6" />
+        <mark key="." line="119" column="5" />
+      </file>
+      <file name="/a.py" timestamp="1642542573936">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/src/amber-cli/sensors.py" timestamp="1642542524946">
+        <mark key="'" line="120" column="0" />
+        <mark key="[" line="221" column="64" />
+        <mark key="]" line="221" column="70" />
+        <mark key="." line="221" column="69" />
+        <mark key="^" line="221" column="70" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" timestamp="1642480278617">
         <mark key="[" line="1" column="19" />
@@ -57,6 +91,16 @@
         <mark key="]" line="165" column="75" />
         <mark key="." line="165" column="75" />
         <mark key="^" line="165" column="75" />
+      </file>
+      <file name="$USER_HOME$/src/amber-cli/mongo.py" timestamp="1642542473674">
+        <mark key="'" line="145" column="0" />
+        <mark key="[" line="237" column="20" />
+        <mark key="]" line="237" column="20" />
+        <mark key="." line="237" column="19" />
+        <mark key="^" line="237" column="20" />
+      </file>
+      <file name="/a.sql" timestamp="1642538178392">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/osrs-hiscores/todo.txt" timestamp="1642227934092">
         <mark key="[" line="2" column="59" />
@@ -117,51 +161,65 @@
       <jump line="0" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
       <jump line="19" column="24" filename="$USER_HOME$/projects/osrs-hiscores/app/callbacks.py" />
       <jump line="143" column="0" filename="$USER_HOME$/projects/osrs-hiscores/app/figures.py" />
+      <jump line="184" column="64" filename="$USER_HOME$/src/amber-cli/mongo.py" />
+      <jump line="228" column="0" filename="$USER_HOME$/src/amber-cli/mongo.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/src/amber-cli/mongo.py" />
+      <jump line="260" column="0" filename="$USER_HOME$/src/amber-cli/mongo.py" />
+      <jump line="136" column="0" filename="$USER_HOME$/src/amber-cli/mongo.py" />
+      <jump line="145" column="0" filename="$USER_HOME$/src/amber-cli/mongo.py" />
+      <jump line="35" column="14" filename="$USER_HOME$/src/amber-cli/sensors.py" />
+      <jump line="219" column="26" filename="$USER_HOME$/src/amber-cli/sensors.py" />
+      <jump line="42" column="0" filename="$USER_HOME$/src/amber-cli/sensors.py" />
+      <jump line="43" column="4" filename="$USER_HOME$/src/amber-cli/sensors.py" />
+      <jump line="77" column="10" filename="$USER_HOME$/src/amber-cli/sensors.py" />
+      <jump line="298" column="0" filename="$USER_HOME$/src/amber-cli/sensors.py" />
+      <jump line="120" column="0" filename="$USER_HOME$/src/amber-cli/sensors.py" />
+      <jump line="116" column="22" filename="$USER_HOME$/src/amber-cli/aws_admin.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">bG9va3VwX3BsYXllcg==</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bG9va3VwX3BsYXllcg==</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="." type="4">
-        <text encoding="base64">ag==</text>
+        <text encoding="base64">IC0tZGV2</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">c2VsZWN0ZWQtdXNlcg==</text>
+        <text encoding="base64">LS1kZXY=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNsdXN0ZXJfaWQgPSBwbGF5ZXJbJ2NsdXN0ZXJfaWQnXVtzcGxpdF0K</text>
+        <text encoding="base64">ICAgIC0tZGV2ICAgICAgICAgICAgICAgOiBpZiBzZXQsIHdpbGwgcXVlcnkgZGV2IGdyb3VwIChkZWZhdWx0IGlzIHByb2QpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICBAYXBwLmNhbGxiYWNrKAogICAgICAgIE91dHB1dCgnc2VsZWN0ZWQtcGxheWVyJywgJ2RhdGEnKSwKICAgICAgICBJbnB1dCgnc2VsZWN0ZWQtY2x1c3RlcicsICdkYXRhJykKICAgICkKICAgIGRlZiBoYW5kbGVfc2VsZWN0ZWRfY2x1c3RlcihkYXRhKToKICAgICAgICBwcmludChkYXRhKQogICAgICAgIHJhaXNlIFByZXZlbnRVcGRhdGUK</text>
+        <text encoding="base64">ICAgICAgICAtLXVzZXIgPHZhbHVlPiAgICAgICA6IGdldCBzZW5zb3IgaW1hZ2VzIGZvciB0aGlzIHVzZXIK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChjbHVzdGVyX2lkKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGFwLmFkZF9hcmd1bWVudCgiLXUiLCAiLS11c2VyIiwgcmVxdWlyZWQ9VHJ1ZSwgaGVscD0iZ2V0IHNlbnNvciBpbWFnZXMgZm9yIHRoaXMgdXNlciIpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICBAYXBwLmNhbGxiYWNrKAogICAgICAgIE91dHB1dCgnc2VsZWN0ZWQtcGxheWVyJywgJ2RhdGEnKSwKICAgICAgICBJbnB1dCgnc2VsZWN0ZWQtY2x1c3RlcicsICdkYXRhJykKICAgICkKICAgIGRlZiBoYW5kbGVfc2VsZWN0ZWRfY2x1c3RlcihkYXRhKToKICAgICAgICBwcmludChkYXRhKQogICAgICAgIHJhaXNlIFByZXZlbnRVcGRhdGUKCiAgICByZXR1cm4gYXBwCg==</text>
+        <text encoding="base64">ICAgICAgICAtLXVzZXIgPHZhbHVlPiAgICAgICA6IGdldCBzZW5zb3IgaW1hZ2VzIGZvciB0aGlzIHVzZXIK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICBAYXBwLmNhbGxiYWNrKAogICAgICAgIE91dHB1dCgnc2VsZWN0ZWQtcGxheWVyJywgJ2RhdGEnKSwKICAgICAgICBJbnB1dCgnc2VsZWN0ZWQtY2x1c3RlcicsICdkYXRhJykKICAgICkKICAgIGRlZiBoYW5kbGVfc2VsZWN0ZWRfY2x1c3RlcihkYXRhKToKICAgICAgICBwcmludChkYXRhKQogICAgICAgIHJhaXNlIFByZXZlbnRVcGRhdGUKCiAgICByZXR1cm4gYXBwCg==</text>
+        <text encoding="base64">ICAgIGFwLgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICBAYXBwLmNhbGxiYWNrKAogICAgICAgIE91dHB1dCgnc2VsZWN0ZWQtdXNlci10ZXh0JywgJ2NoaWxkcmVuJyksCiAgICAgICAgSW5wdXQoJ3NlbGVjdGVkLXBsYXllcicsICdkYXRhJyksCiAgICApCiAgICBkZWYgc2VsZWN0X3VzZXIoZGF0YSk6CiAgICAgICAgaWYgZGF0YSBpcyBOb25lOgogICAgICAgICAgICByYWlzZSBQcmV2ZW50VXBkYXRlCgogICAgICAgIHJldHVybiAnJwo=</text>
+        <text encoding="base64">ICAgICAgICAtLWRldiAgICAgICAgICAgICAgIDogCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGV4dCA9ICIne30nOiBjbHVzdGVyIHt9ICh7Oi4yJX0gdW5pcXVlKSIuZm9ybWF0KHVzZXJuYW1lLCBjbHVzdGVyX2lkLCB1bmlxdWVuZXNzKQo=</text>
+        <text encoding="base64">ICAgICAgICAtLWRldiAgICAgICAgICAgICAgIDogCiAgICAgICAgLS1kZXYgICAgICAgICAgICAgICA6IGlmIHNldCwgd2lsbCBxdWVyeSBkZXYgZ3JvdXAgKGRlZmF1bHQgaXMgcHJvZCkKICAgICcnJwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAtLWRldiAgICAgICAgICAgICAgIDogCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICByZXR1cm4gIid7fSc6IGNsdXN0ZXIge30gKHs6LjIlfSB1bmlxdWUpIi5mb3JtYXQodXNlcm5hbWUsIGNsdXN0ZXJfaWQsIHVuaXF1ZW5lc3MpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICByZXR1cm4gIm5vIHBsYXllciAne30nIGluIGRhdGFzZXQiLmZvcm1hdCh1c2VybmFtZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICh3aWxsIGdldCBhbGwgaWYgdW5zZXQpCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">c2V0IHJlbGF0aXZlbnVtYmVy</text>
@@ -170,8 +228,8 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">c2VsZWN0ZWQtdXNlcg==</last-search>
-      <last-pattern encoding="base64">c2VsZWN0ZWQtdXNlcg==</last-pattern>
+      <last-search encoding="base64">LS1kZXY=</last-search>
+      <last-pattern encoding="base64">LS1kZXY=</last-pattern>
       <last-dir encoding="base64">MQ==</last-dir>
       <show-last encoding="base64">ZmFsc2U=</show-last>
     </search>
