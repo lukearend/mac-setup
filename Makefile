@@ -58,17 +58,17 @@ iterm-pull:
 
 .PHONY: pycharm pycharm-pull
 pycharm:
-	@pycharm=PyCharmCE2021.3 && \
+	@pycharm=`cd ~/Library/Application\ Support/JetBrains && find . -type d -path '*/PyCharm*' -maxdepth 1 | head -1 | xargs basename` && \
 	for config in codestyles colors filetypes inspection keymaps options templates tools shelf; \
 	do \
-		cp -r pycharm/$$config ~/Library/Application\ Support/JetBrains/$$pycharm/$$config &> /dev/null || : ; \
+		cp -r pycharm/$$config ~/Library/Application\ Support/JetBrains/$$pycharm/ &> /dev/null || : ; \
 	done
 
 pycharm-pull:
-	@pycharm=PyCharmCE2021.3 && \
+	@pycharm=`cd ~/Library/Application\ Support/JetBrains && find . -type d -path '*/PyCharm*' -maxdepth 1 | head -1 | xargs basename` && \
 	for config in codestyles colors filetypes inspection keymaps options templates tools shelf; \
 	do \
-		cp -r ~/Library/Application\ Support/JetBrains/$$pycharm/$$config pycharm/$$config &> /dev/null || : ; \
+		cp -r ~/Library/Application\ Support/JetBrains/$$pycharm/$$config pycharm/ &> /dev/null || : ; \
 	done
 
 help:               ## Show this help.
