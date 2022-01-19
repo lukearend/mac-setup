@@ -29,8 +29,15 @@ bash-pull:          ## Replace this repo's bash/shell setup with the local user'
 vim:                ## Configure local vim.
 	cp vim/.vimrc ~/.vimrc
 
-vim-pull:           ## Replace .vimrc in this repository with local .vimrc.
+vim-pull:           ## Replace .vimrc in this repo with local .vimrc.
 	cp ~/.vimrc vim/.vimrc
+
+.PHONY: ideavim ideavim-pull
+ideavim:			## Configure IDEA vim.
+	cp ideavim/.ideavimrc ~/.ideavimrc
+
+ideavim-pull:		## Replace .ideavimrc in this repo with local .ideavimrc.
+	cp ~/.ideavimrc ideavim/.ideavimrc
 
 .PHONY: karabiner karabiner-pull
 karabiner:          ## Configure local karabiner.
