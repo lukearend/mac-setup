@@ -117,5 +117,4 @@ JetBrains
 ---------
 
 Install plugins Vim Emulation and TabMover. Remap TabMover move tab left/move tab right to ctrl+opt+cmd+left/right arrow.
-
 Install IdeaVim-EasyMotion. Enables `set surround` in .ideavimrc for surround commands.

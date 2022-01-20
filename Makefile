@@ -65,18 +65,42 @@ iterm-pull:
 
 .PHONY: pycharm pycharm-pull
 pycharm:
-	pycharm=`cd ~/Library/Application\ Support/JetBrains && find . -type d -path '*/PyCharm*' -maxdepth 1 | head -1 | xargs basename` && \
-	for config in codestyles colors filetypes inspection keymaps options templates tools shelf; \
-	do \
-		cp -r pycharm/$$config ~/Library/Application\ Support/JetBrains/$$pycharm/ &> /dev/null || : ; \
-	done
+	jbdir=~/Library/ApplicationSupport/JetBrains && \
+	pycharm=`cd $$jbdir && find . -type d -path '*/PyCharm*' -maxdepth 1 | head -1 | xargs basename` && \
+	cp -r pycharm/codestyles $$jbdir/$$pycharm/ && \
+	cp -r pycharm/colors $$jbdir/$$pycharm/ && \
+	cp -r pycharm/inspection $$jbdir/$$pycharm/ && \
+	cp -r pycharm/keymaps $$jbdir/$$pycharm/ && \
+	cp pycharm/options/*.xml $$jbdir/$$pycharm/options/
 
 pycharm-pull:
-	pycharm=`cd ~/Library/Application\ Support/JetBrains && find . -type d -path '*/PyCharm*' -maxdepth 1 | head -1 | xargs basename` && \
-	for config in codestyles colors filetypes inspection keymaps options templates tools shelf; \
-	do \
-		cp -r ~/Library/Application\ Support/JetBrains/$$pycharm/$$config pycharm/ &> /dev/null || : ; \
-	done
+	cd pycharm && mkdir -p codestyles colors inspection keymaps options
+	jbdir=~/Library/ApplicationSupport/JetBrains && \
+	pycharm=`cd $$jbdir && find . -type d -path '*/PyCharm*' -maxdepth 1 | head -1 | xargs basename` && \
+	cp -r $$jbdir/$$pycharm/codestyles pycharm/ && \
+	cp -r $$jbdir/$$pycharm/colors pycharm/ && \
+	cp -r $$jbdir/$$pycharm/inspection pycharm/ && \
+	cp -r $$jbdir/$$pycharm/keymaps pycharm/ && \
+	cp $$jbdir/$$pycharm/options/actionSummary.xml pycharm/options/actionSummary.xml && \
+	cp $$jbdir/$$pycharm/options/advancedSettings.xml pycharm/options/advancedSettings.xml && \
+	cp $$jbdir/$$pycharm/options/colors.scheme.xml pycharm/options/colors.scheme.xml && \
+	cp $$jbdir/$$pycharm/options/databaseSettings.xml pycharm/options/databaseSettings.xml && \
+	cp $$jbdir/$$pycharm/options/debugger.xml pycharm/options/debugger.xml && \
+	cp $$jbdir/$$pycharm/options/editor-font.xml pycharm/options/editor-font.xml && \
+	cp $$jbdir/$$pycharm/options/editor.xml pycharm/options/editor.xml && \
+	cp $$jbdir/$$pycharm/options/filetypes.xml pycharm/options/filetypes.xml && \
+	cp $$jbdir/$$pycharm/options/find.xml pycharm/options/find.xml && \
+	cp $$jbdir/$$pycharm/options/ide-features-trainer.xml pycharm/options/ide-features-trainer.xml && \
+	cp $$jbdir/$$pycharm/options/ide.general.xml pycharm/options/ide.general.xml && \
+	cp $$jbdir/$$pycharm/options/laf.xml pycharm/options/laf.xml && \
+	cp $$jbdir/$$pycharm/options/pySdk.xml pycharm/options/pySdk.xml && \
+	cp $$jbdir/$$pycharm/options/pyWelcome.xml pycharm/options/pyWelcome.xml && \
+	cp $$jbdir/$$pycharm/options/runner.layout.xml pycharm/options/runner.layout.xml && \
+	cp $$jbdir/$$pycharm/options/shownTips.xml pycharm/options/shownTips.xml && \
+	cp $$jbdir/$$pycharm/options/terminal.xml pycharm/options/terminal.xml && \
+	cp $$jbdir/$$pycharm/options/usageView.xml pycharm/options/usageView.xml && \
+	cp $$jbdir/$$pycharm/options/vcs.xml pycharm/options/vcs.xml && \
+	cp $$jbdir/$$pycharm/options/vim_settings.xml pycharm/options/vim_settings.xml
 
 help:               ## Show this help.
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'

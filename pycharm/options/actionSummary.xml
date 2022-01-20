@@ -1,73 +1,118 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1642616178128" />
+    </e>
+    <e n="$Paste">
+      <i c="2" l="1642624614870" />
+    </e>
     <e n="$SelectAll">
-      <i c="1" l="1641943519693" />
+      <i c="4" l="1642623715446" />
     </e>
     <e n="ActivateBookmarksToolWindow">
       <i c="7" l="1641962730325" />
     </e>
+    <e n="ActivateDebugToolWindow">
+      <i c="4" l="1642625478712" />
+    </e>
     <e n="ActivateFindToolWindow">
-      <i c="25" l="1642474932878" />
+      <i c="31" l="1642625486583" />
     </e>
     <e n="ActivateProjectToolWindow">
-      <i c="29" l="1642474930532" />
+      <i c="33" l="1642625480119" />
     </e>
     <e n="ActivateRunToolWindow">
-      <i c="23" l="1642474937714" />
+      <i c="27" l="1642625484896" />
+    </e>
+    <e n="ActivateServicesToolWindow">
+      <i c="4" l="1642619029608" />
     </e>
     <e n="ActivateTerminalToolWindow">
-      <i c="53" l="1642474627744" />
+      <i c="65" l="1642625482968" />
     </e>
     <e n="AutoIndentLines">
-      <i c="61" l="1642479737879" />
+      <i c="80" l="1642629540660" />
+    </e>
+    <e n="CWMHostShowPopupAction">
+      <i c="2" l="1642623510372" />
     </e>
     <e n="CloseProject">
       <i c="2" l="1641943663516" />
     </e>
+    <e n="CollapseRegion">
+      <i c="13" l="1642618739088" />
+    </e>
     <e n="CommentByLineComment">
-      <i c="13" l="1642475003164" />
+      <i c="19" l="1642629832213" />
+    </e>
+    <e n="Console.Jdbc.Execute">
+      <i c="50" l="1642623825026" />
+    </e>
+    <e n="Console.TableResult.ChangePageSize">
+      <i c="2" l="1642615713662" />
+    </e>
+    <e n="Console.TableResult.ChooseExtractor">
+      <i c="1" l="1642616609502" />
+    </e>
+    <e n="Console.TableResult.ViewAs">
+      <i c="2" l="1642625041727" />
+    </e>
+    <e n="Console.TableResult.ViewAsTreeTable">
+      <i c="2" l="1642625042745" />
+    </e>
+    <e n="DatabaseView.AddActionGroupPopup">
+      <i c="2" l="1642623708197" />
+    </e>
+    <e n="DatabaseView.DropAction">
+      <i c="2" l="1642623731811" />
     </e>
     <e n="Debug">
       <i c="2" l="1642227529283" />
     </e>
     <e n="EditorBackSpace">
-      <i c="788" l="1642549434008" />
+      <i c="1142" l="1642629868737" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="1" l="1642395493445" />
+      <i c="2" l="1642624654462" />
     </e>
     <e n="EditorChooseLookupItemReplace">
-      <i c="6" l="1642479511074" />
+      <i c="7" l="1642624662158" />
     </e>
     <e n="EditorCloneCaretAbove">
-      <i c="34" l="1642476241848" />
+      <i c="46" l="1642616313068" />
     </e>
     <e n="EditorCloneCaretBelow">
       <i c="7" l="1642375834403" />
     </e>
     <e n="EditorCopy">
-      <i c="6" l="1642226247249" />
+      <i c="28" l="1642616557906" />
     </e>
     <e n="EditorDelete">
-      <i c="19" l="1642224797796" />
+      <i c="23" l="1642624965463" />
     </e>
     <e n="EditorDeleteLine">
-      <i c="4" l="1642480339062" />
+      <i c="6" l="1642618888165" />
     </e>
     <e n="EditorDeleteToWordStart">
-      <i c="100" l="1642480438658" />
+      <i c="245" l="1642629547564" />
     </e>
     <e n="EditorDown">
-      <i c="7" l="1641943821277" />
+      <i c="8" l="1642623788215" />
     </e>
     <e n="EditorEnter">
-      <i c="201" l="1642480523859" />
+      <i c="383" l="1642629870726" />
     </e>
     <e n="EditorEscape">
-      <i c="5" l="1642479862064" />
+      <i c="26" l="1642618385162" />
+    </e>
+    <e n="EditorJoinLines">
+      <i c="22" l="1642627693060" />
+    </e>
+    <e n="EditorLineEnd">
+      <i c="4" l="1642614784180" />
     </e>
     <e n="EditorPaste">
-      <i c="8" l="1642226262757" />
+      <i c="32" l="1642629139280" />
     </e>
     <e n="EditorRight">
       <i c="1" l="1642223255598" />
@@ -79,10 +124,10 @@
       <i c="82" l="1642479707557" />
     </e>
     <e n="EditorStartNewLine">
-      <i c="1" l="1641963283226" />
+      <i c="4" l="1642626629992" />
     </e>
     <e n="EditorTab">
-      <i c="38" l="1642480522914" />
+      <i c="63" l="1642629361917" />
     </e>
     <e n="EditorTabsEntryPoint">
       <i c="5" l="1642227555047" />
@@ -94,19 +139,22 @@
       <i c="1" d="1" l="1642227652313" k="1642227652313" />
     </e>
     <e n="EditorUp">
-      <i c="25" l="1641967207463" />
+      <i c="26" l="1642623466918" />
     </e>
     <e n="ExecuteInPyConsoleAction">
-      <i c="1" l="1642480105055" />
+      <i c="4" l="1642628684934" />
     </e>
     <e n="ExpandAll">
       <i c="1" l="1641960939385" />
     </e>
     <e n="ExpandRegion">
-      <i c="1" l="1641960941597" />
+      <i c="10" l="1642618740138" />
+    </e>
+    <e n="FileStructurePopup">
+      <i c="1" l="1642615422815" />
     </e>
     <e n="Find">
-      <i c="41" l="1642479850605" />
+      <i c="42" l="1642618330571" />
     </e>
     <e n="GotoAction">
       <i c="1" l="1642227514603" />
@@ -118,19 +166,28 @@
       <i c="7" l="1642475231830" />
     </e>
     <e n="GotoFile">
-      <i c="4" l="1642395883646" />
+      <i c="5" l="1642618991309" />
     </e>
     <e n="JumpToLastWindow">
       <i c="1" l="1642476397072" />
     </e>
     <e n="NewDirectoryProject">
-      <i c="1" l="1641943637218" />
+      <i c="4" l="1642622853240" />
+    </e>
+    <e n="NewElement">
+      <i c="2" l="1642624698971" />
+    </e>
+    <e n="NewFile">
+      <i c="2" l="1642624700516" />
     </e>
     <e n="NewScratchFile">
-      <i c="3" l="1642480121465" />
+      <i c="4" l="1642616186462" />
     </e>
     <e n="NextTemplateVariable">
       <i c="1" l="1641943050437" />
+    </e>
+    <e n="NextWindow">
+      <i c="1" l="1642623567030" />
     </e>
     <e n="RenameElement">
       <i c="2" l="1641963945856" />
@@ -142,7 +199,7 @@
       <i c="2" l="1641960084025" />
     </e>
     <e n="Run">
-      <i c="59" l="1642479944241" />
+      <i c="89" l="1642629940700" />
     </e>
     <e n="RunClass">
       <i c="4" l="1641960705197" />
@@ -150,8 +207,14 @@
     <e n="RunConfiguration">
       <i c="2" l="1642214953654" />
     </e>
+    <e n="Runner.CloseView">
+      <i c="8" l="1642616472953" />
+    </e>
+    <e n="Runner.RestoreLayout">
+      <i c="1" l="1642616813501" />
+    </e>
     <e n="SaveAll">
-      <i c="28" l="1642475247671" />
+      <i c="29" l="1642628580804" />
     </e>
     <e n="SearchEverywhere">
       <i c="1" l="1641943078133" />
@@ -165,8 +228,11 @@
     <e n="Stop">
       <i c="2" l="1642475457170" />
     </e>
+    <e n="ToggleBookmark">
+      <i c="4" l="1642616045446" />
+    </e>
     <e n="ToggleDistractionFreeMode">
-      <i c="13" l="1641963339527" />
+      <i c="15" l="1642618771138" />
     </e>
     <e n="ToggleFullScreen">
       <i c="1" l="1641943871365" />
@@ -210,8 +276,29 @@
     <e n="com.intellij.codeInsight.daemon.impl.DaemonTooltipWithActionRenderer$ShowActionsAction">
       <i c="2" l="1642476562358" />
     </e>
+    <e n="com.intellij.database.dataSource.LocalDataSourceManager$3">
+      <i c="2" l="1642623712904" />
+    </e>
+    <e n="com.intellij.database.dataSource.url.ui.DynamicJdbcUrlEditor$5">
+      <i c="2" l="1642623715711" />
+    </e>
+    <e n="com.intellij.database.run.actions.ChangePageSizeAction">
+      <i c="1" l="1642615710239" />
+    </e>
+    <e n="com.intellij.database.run.actions.ChangePageSizeActionGroup$MyCountRowsAction">
+      <i c="1" l="1642615716174" />
+    </e>
+    <e n="com.intellij.database.settings.GeneralSettingsComponent$MyAction">
+      <i c="14" l="1642615806965" />
+    </e>
     <e n="com.intellij.execution.actions.RunConfigurationsComboBoxAction$SelectConfigAction">
       <i c="3" l="1642214952116" />
+    </e>
+    <e n="com.intellij.execution.console.ConsoleExecuteAction">
+      <i c="4" l="1642628732406" />
+    </e>
+    <e n="com.intellij.execution.console.ConsoleHistoryController$MyAction">
+      <i c="1" l="1642628727876" />
     </e>
     <e n="com.intellij.execution.impl.ConsoleViewImpl$9">
       <i c="1" l="1641964928542" />
@@ -220,7 +307,7 @@
       <i c="2" l="1642476413897" />
     </e>
     <e n="com.intellij.find.SearchReplaceComponent$11">
-      <i c="41" l="1642479856932" />
+      <i c="42" l="1642618333187" />
     </e>
     <e n="com.intellij.find.actions.ShowUsagesAction$8">
       <i c="1" l="1641944452042" />
@@ -241,22 +328,22 @@
       <i c="2" l="1642227542073" />
     </e>
     <e n="com.intellij.ide.actions.ToolWindowMoveAction">
-      <i c="2" l="1642474942810" />
+      <i c="6" l="1642625544092" />
     </e>
     <e n="com.intellij.ide.plugins.newui.SelectionBasedPluginModelAction$UninstallAction">
       <i c="1" l="1642218021560" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="1" l="1642216379321" />
+      <i c="2" l="1642623754805" />
     </e>
     <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
       <i c="1" l="1641944705794" />
     </e>
     <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
-      <i c="1568" l="1642480536754" />
+      <i c="2183" l="1642629868726" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="8" l="1642396579917" />
+      <i c="15" l="1642623060942" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
       <i c="9" l="1642549521670" />
@@ -267,23 +354,26 @@
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$RemoveShortcutAction">
       <i c="4" l="1642549540109" />
     </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$ResetShortcutsAction">
+      <i c="4" l="1642625510526" />
+    </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="13" l="1642395885761" />
+      <i c="16" l="1642618992603" />
     </e>
     <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
       <i c="2" l="1642215295205" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
-      <i c="2" l="1642474936108" />
+      <i c="6" l="1642628974046" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
-      <i c="5" l="1642474938755" />
+      <i c="11" l="1642625540652" />
     </e>
     <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$5">
-      <i c="2" l="1641943130023" />
+      <i c="3" l="1642623074893" />
     </e>
     <e n="com.intellij.ui.CommonActionsPanel$AddButton">
-      <i c="2" l="1641943723938" />
+      <i c="5" l="1642624607576" />
     </e>
     <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
       <i c="3" l="1641960713353" />
@@ -298,13 +388,19 @@
       <i c="2" l="1642214961523" />
     </e>
     <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectNextAction">
-      <i c="73" l="1642480005162" />
+      <i c="80" l="1642624816141" />
     </e>
     <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectPreviousAction">
-      <i c="60" l="1642480004773" />
+      <i c="77" l="1642624822861" />
     </e>
     <e n="com.intellij.usages.impl.UsageFilteringRuleAction">
       <i c="7" l="1641944477342" />
+    </e>
+    <e n="com.jetbrains.python.console.PydevConsoleRunnerImpl$6">
+      <i c="1" l="1642628695070" />
+    </e>
+    <e n="com.jetbrains.python.console.PydevConsoleRunnerImpl$RestartAction">
+      <i c="1" l="1642628697534" />
     </e>
     <e n="com.maddyhome.idea.vim.group.NotificationService$notifyAboutShortcutConflict$1">
       <i c="1" l="1642227526034" />
@@ -313,10 +409,10 @@
       <i c="2" l="1641962418858" />
     </e>
     <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
-      <i c="5" l="1642474847012" />
+      <i c="8" l="1642615119437" />
     </e>
     <e n="editRunConfigurations">
-      <i c="7" l="1642214954635" />
+      <i c="14" l="1642627857196" />
     </e>
   </component>
 </application>

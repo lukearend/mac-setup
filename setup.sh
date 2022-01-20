@@ -230,6 +230,9 @@ run defaults write com.apple.commerce AutoUpdate -bool true
 
 # Install Applications
 
+# Softlink '~/Library/Application Support' to ../ApplicationSupport (Make can't handle spaces in filenames).
+ln -s ~/Library/Application\ Support ~/Library/ApplicationSupport
+
 # Note: Before installing Homebrew, set the following settings in your .bash_profile for increased privacy.
 # export HOMEBREW_NO_ANALYTICS=1
 # export HOMEBREW_NO_INSECURE_REDIRECT=1
