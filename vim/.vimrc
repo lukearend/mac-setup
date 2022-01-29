@@ -7,3 +7,4 @@ set backspace=indent,eol,start
 set relativenumber
 set visualbell
 set noerrorbells
+set t_vb=
