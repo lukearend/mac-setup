@@ -1529,7 +1529,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "fast_forward"
+                                        "key_code": "fastforward"
                                     }
                                 ],
                                 "type": "basic"
