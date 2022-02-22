@@ -2,7 +2,9 @@ imap jk <Esc>
 nnoremap <SPACE> <Nop>
 let mapleader = " "
 vnoremap p "_dP"
-nnoremap E $
+vnoremap E $
+vnoremap j gj
+vnoremap k gk
 
 set backspace=indent,eol,start
 set number
