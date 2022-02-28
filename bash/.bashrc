@@ -15,10 +15,19 @@ alias la='ls -A'
 # If available, add bash completion.
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
+# If available, add git completion.
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 # Import aliases.
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+# Enable command `subl` to open Sublime Text from the CLI.
+export PATH="/$PATH:Applications/Sublime Text.app/Contents/SharedSupport/bin"
+export PATH=$PATH:/opt/local/bin
 
 # Do not update homebrew every time a package is installed.
 export HOMEBREW_NO_AUTO_UPDATE=1
@@ -27,6 +36,9 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+
+# Unset PYTHONPATH
+unset PYTHONPATH
 
 # Coloring and command prompt improvements.
 export CLICOLOR=1
